@@ -9,6 +9,8 @@ Features
 - Find available books for rent
 - Identify overdue rentals
 
+** Project in master branch
+
 ## Getting Started<br>
 Prerequisites:
 - Java 17
