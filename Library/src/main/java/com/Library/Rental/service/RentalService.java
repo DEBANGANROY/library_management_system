@@ -19,7 +19,11 @@ public class RentalService {
     @Autowired
     private BookService bookService;
     // Add
-    public Rental addRental(Rental rental){ return rentalRepo.save(rental);}
+    public Rental addRental(Rental rental){
+        if(isAvailable(bookService.getBookById(rental.getBookId()))){
+            return rentalRepo.save(rental);
+        }else return null;
+    }
     // Display
     public Iterable<Rental> getAllRentals(){return rentalRepo.findAll();}
     public Rental getById(Long id){return rentalRepo.findById(id).get();}
@@ -52,5 +56,10 @@ public class RentalService {
             }
         }
         return availableBook;
+    }
+
+    public boolean isAvailable(Book book){
+        List<Book> availableBooks = availableBooks();
+        return availableBooks.contains(book);
     }
 }
