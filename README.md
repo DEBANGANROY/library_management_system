@@ -13,4 +13,7 @@ Getting Started
 Prerequisites:
 - Java 17
 - Maven
-- 
+
+1. Clone the repository
+Bash
+git clone https://your_repository_url.git
