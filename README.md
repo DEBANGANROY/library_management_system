@@ -14,6 +14,5 @@ Prerequisites:
 - Java 17
 - Maven
 
-1. Clone the repository
-Bash
+1. Clone the repository<br>
 git clone https://your_repository_url.git
