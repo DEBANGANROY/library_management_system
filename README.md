@@ -1,5 +1,5 @@
 # Library management system
-Book Library Management with Spring Boot
+### Book Library Management with Spring Boot
 This Spring Boot application provides a RESTful API for managing books, authors, and rentals in a library.
 
 Features
@@ -9,7 +9,7 @@ Features
 - Find available books for rent
 - Identify overdue rentals
 
-Getting Started
+## Getting Started<br>
 Prerequisites:
 - Java 17
 - Maven
