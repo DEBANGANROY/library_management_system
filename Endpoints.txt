@@ -1,0 +1,23 @@
+Books:
+    GET/book/all
+    GET/book/id
+    GET/book?author=XYZ
+    POST/book/add
+    PUT/book/update/{id}
+    DELETE//book/delete/{id}
+
+Authors:
+    GET/author/all
+    GET/author/{id}
+    POST/author/add
+    PUT/author/update/{id}
+    DELETE/author/delete/{id}
+
+Rentals:
+    GET/rent/all
+    GET/rent/{id}
+    POST/rent/new
+    PUT/rent/return/{id}
+    GET/rent/overdue
+    GET/books/available
+
